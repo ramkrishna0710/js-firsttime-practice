@@ -46,3 +46,27 @@ console.log(typeof bigNumber)
     Object(host and does not implement[[Call]]) ->  Implement-defined expert may not be "undefined","boolean","number" or "string"
 
 */
+
+
+//********************************** */
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let nickName = "Raja"
+let anotherName = nickName
+anotherName = "Ramkrishna"
+
+console.log(nickName);
+console.log(anotherName);
+
+let userOne = {
+    email : 'user@gmail.com',
+    upi : 'user@ybl'
+}
+
+let userTwo = userOne
+
+userTwo.email = "ramkrishna@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
