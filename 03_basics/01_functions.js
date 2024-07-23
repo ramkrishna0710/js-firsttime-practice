@@ -36,6 +36,21 @@ function loginUserMessage(username = 'ram'){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("ram"))
-console.log(loginUserMessage(""))
-console.log(loginUserMessage())
+// console.log(loginUserMessage("ram"))
+// console.log(loginUserMessage(""))
+// console.log(loginUserMessage())
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200,500,700));
+
+const myNewArr = [200, 300, 500]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArr));
+console.log(returnSecondValue([200,400,600,800]));
